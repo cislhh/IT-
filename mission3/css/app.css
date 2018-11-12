@@ -6,11 +6,11 @@ body{
 	background-color: #68cdd6;
 	
 }
-.parent{
-	width: 80%;
-	
-	margin: 10%;
+.back{
+	margin-left: 1%;
+	margin-top: 1%;
 }
+
 .yeye{
 	margin: 0 14%;
 }
@@ -27,13 +27,12 @@ p{
 	margin-bottom: 20rem;
 }
 .people{
+	float: left;
 	
-	display: inline-block;
 	text-align: center;
-	
 }
 .number{
 	float: right;
-	text-align: center;
 	
+	text-align: center;
 }
