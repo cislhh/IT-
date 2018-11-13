@@ -15,9 +15,7 @@ body{
 .body-input{
 	margin-top: 20px;
 }
-.heading-title{
-	width: 100%;
-}
+
 ul{
 	list-style: none;
 	
@@ -47,7 +45,7 @@ li{
 	background-size: 70px 70px;
 	background-repeat: no-repeat;
 	margin-bottom: 20px;
-	padding-left: 75px;
+	text-indent: 75px;
 }
 .input-password input{
 	width: 100%;
@@ -55,7 +53,7 @@ li{
 	background-image: url(../img/登陆_05.png);
 	background-size: 70px 70px;
 	background-repeat: no-repeat;
-	padding-left: 75px;
+	text-indent: 75px;
 }
 .input-btn{
 	background-color: #5fc0cd;
