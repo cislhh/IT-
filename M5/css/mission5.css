@@ -1,0 +1,98 @@
+*{
+	margin: 0rem;
+	padding: 0rem;
+}
+html{
+	font-size: 1.6rem;
+	font-size: 62.5%;
+}
+
+.heading{
+	position: fixed;
+	background-color: #5fc0cd;
+	width: 100%;
+	height: 3.5rem;
+}
+.heading p{	
+	position: fixed;
+	left: 43%;
+	top: 0.5rem;
+	font-size: 2rem;
+	color: white;	
+}
+.body-name{
+	background-image: url(../img/002.png);
+	background-repeat: no-repeat;
+	background-size: 100% 32.2rem;
+	height: 32.2rem;
+}
+.name-img img{
+	width: 8rem;
+	height: 8.5rem;
+	margin-top: 10rem;
+	margin-left: 5rem;
+}
+.name-p{
+	color: white;
+	margin-top: -7rem;
+	margin-left: 17rem;
+	letter-spacing: 0.2rem;
+	font-size: 2rem;
+}
+.skill p{
+	border-left: 0.5rem solid #5FC0CD;
+	margin-top: 1rem;
+	margin-left: 2rem;
+	letter-spacing: 0.2rem;
+	text-indent: 0.5rem;
+	font-size: 2rem;
+	
+}
+hr{
+	margin-top: 2rem;
+	margin-left: 2rem;
+	background-color: gainsboro;
+	height: 0.1rem;
+	border: none;
+}
+.people-home{
+	list-style-image: url(../img/005.png);
+	margin-left: 5rem;
+	margin-top: 1rem;
+	margin-bottom: 2rem;
+	font-size: 2rem;
+}
+.people-year p{
+	display: inline-block;
+	margin-top: 2rem;
+	margin-left: 2rem;
+	margin-bottom: 1rem;
+	font-size: 2rem;
+}
+a{
+	
+}
+.my{
+	height: 6rem;
+}
+.footing{
+	position: fixed;
+	bottom: 2rem;
+	width: 100%;
+	height: 10rem;
+}
+.footing button{
+	margin-left: 5%;
+	width: 40%;
+	height: 85%;
+	border: 0.2rem solid #5FC0CD;
+	border-radius: 0.5rem;
+	font-size: 3rem;
+	margin-top: 1%;
+	font-weight: 900;
+}
+.all{
+	width: 100%;
+	height: 70rem;
+	overflow-y: scroll;
+}
