@@ -1,0 +1,113 @@
+html {
+	font-size: 1.6rem;
+	font-size: 62.5%;
+}
+
+.btnimg {
+	position: fixed;
+	right: 1rem;
+	top: 0.5rem;
+	display: inline-block;
+}
+
+.btn {
+	position: fixed;
+	top: 5rem;
+	font-size: 1.8rem;
+	border-top: none;
+	border-left: none;
+	z-index: 1;
+}
+
+.btn-primary {
+	background-color: white;
+	color: gainsboro;
+}
+
+.select .col-4 {
+	padding: 0 2px;
+}
+
+a {
+	font-size: 20px;
+}
+
+.btn1:hover {
+	background-color: gainsboro;
+}
+
+.btn2:hover {
+	background-color: gainsboro;
+}
+
+.btn3:hover {
+	background-color: gainsboro;
+}
+
+.header {
+	position: fixed;
+	top: 0rem;
+	width: 100%;
+	height: 5rem;
+	background-color: #5FC0CD;
+	z-index: 1;
+}
+
+.boss,.worker {
+	margin-top: 5%;
+	font-size: 2rem;
+}
+
+.boss {
+	background-color: #265A88;
+	color: white;
+	border: 1px solid #265A88;
+	border-radius: 5px;
+}
+
+.worker {
+	background-color: white;
+	color: #5FC0CD;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+.img_year {
+	width: 25px; height: 24px;
+    background: url(../img/spair1.png) -124px -76px;
+}
+.img_target{
+    width: 19px; height: 23px;
+    background: url(../img/spair1.png) -113px -126px;
+}
+.img_rua{
+	 width: 17px; height: 33px;
+    background: url(../img/spair1.png) -76px -126px;
+}
+
+.main{
+	margin-top: 11rem;
+	width: 100%;
+	overflow: hidden;
+}
+
+.graycolor{
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	margin-left: 1rem;
+}
+.time{
+	color: red;
+}
+.footer{
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	height: 7rem;
+	background-color: #f8fafb;
+}
+.btn_home{
+	background-color: #f8fafb;
+	border: none;
+}
