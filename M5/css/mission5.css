@@ -15,10 +15,11 @@ html{
 }
 .heading p{	
 	position: fixed;
-	left: 43%;
+	justify-content: center;
 	top: 0.5rem;
 	font-size: 2rem;
 	color: white;	
+	margin-left: 45%;
 }
 
 .skill p{
@@ -204,6 +205,14 @@ hr{
 	margin-top: 1%;
 	font-weight: 900;
 	
+}
+.heading p{	
+	position: fixed;
+	justify-content: center;
+	top: 0.5rem;
+	font-size: 2rem;
+	color: white;	
+	margin-left: 40%;
 }
 
 }
