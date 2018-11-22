@@ -22,38 +22,49 @@ html{
 	margin-left: 45%;
 }
 
-.skill p{
-	border-left: 0.5rem solid #5FC0CD;
-	margin-top: 1rem;
-	margin-left: 2rem;
-	letter-spacing: 0.2rem;
-	text-indent: 0.5rem;
-	font-size: 2rem;
-	
-}
-hr{
-	margin-top: 2rem;
-	margin-left: 2rem;
-	background-color: gainsboro;
-	height: 0.1rem;
+.star{
 	border: none;
 }
-.people-home{
-	list-style-image: url(../img/005.png);
-	margin-left: 5rem;
-	margin-top: 1rem;
-	margin-bottom: 2rem;
-	font-size: 2rem;
+.star img {
+    vertical-align: middle;
+    width: 1.5rem;
 }
-.people-year p{
-	display: inline-block;
-	margin-top: 2rem;
-	margin-left: 2rem;
-	margin-bottom: 1rem;
-	font-size: 2rem;
+.star span {
+    vertical-align: middle;
 }
-.my{
-	height: 6rem;
+.list {
+    margin-left: 1.5rem;
+    padding-left: 1.4rem;
+    border-left: solid 0.1rem #e1e5e7;
+}
+.red {
+    color: red;
+}
+.gray {
+    color: gray;
+}
+.content p {
+    margin: 2rem 1.5rem;
+    padding-left: 1.5rem;
+    font-size: 2rem;
+    font-weight: 200;
+    border-left: solid 0.25rem #5fc0cd;
+}
+.content hr {
+    height: 0.1rem;
+    border-width: 0;
+    background-color: #e1e5e7;
+}
+.content .star {
+    display: inline-block;
+}
+.content .wrap {
+    position: relative;
+    z-index: -1;
+    margin: 0 1.5rem;
+    padding: 2rem 1.5rem;
+    border-bottom: solid 0.1rem #e1e5e7;
+    font-size: 2rem;
 }
 .footing{
 	position: fixed;
@@ -73,10 +84,18 @@ hr{
 	font-weight: 900;
 	
 }
+.target{
+	position: absolute;
+	left: 1.5rem;
+	top: 50%;
+	
+	transform: translateY(-50%);
+}
 .my{
-	 border-right: 2px solid gainsboro; 
-	 width: 10.2rem; 
-	 
+	display: inline-block;
+	
+	margin-left: 8.5rem;
+	border-left: solid 0.1rem #e1e5e7;
 }
 .laoren{
 	font-size: 2rem;
@@ -146,44 +165,52 @@ hr{
     width: 1rem;
     margin-right: 0.5rem;
 }
-
-
-
-.skill p{
-	border-left: 0.5rem solid #5FC0CD;
-	margin-top: 1rem;
-	margin-left: 2rem;
-	letter-spacing: 0.2rem;
-	text-indent: 0.5rem;
-	font-size: 1.45rem;
-	
+.target{
+	position: absolute;
+        left: 0.5rem;
+        top: 50%;
+        transform: translateY(-50%);
 }
-hr{
-	margin-top: 2rem;
-	margin-left: 2rem;
-	background-color: gainsboro;
-	height: 0.1rem;
-	border: none;
-}
-.people-home{
-	list-style-image: url(../img/005.png);
-	margin-left: 5rem;
-	margin-top: 1rem;
-	margin-bottom: 2rem;
-	font-size: 1.5rem;
-}
-.people-year p{
-	display: inline-block;
-	margin-top: 2rem;
-	margin-left: 2rem;
-	margin-bottom: 1rem;
-	font-size: 1rem;
-}
-.my{
-	 border-right: 2px solid gainsboro; 
-	 width: 6rem; 
-	 
-}
+.my {
+        display: inline-block;
+        margin-left: 5.8rem;
+        padding-left: 1.4rem;
+        border-left: solid 0.1rem #e1e5e7;
+        }
+.content p {
+        margin: 1rem 0.5rem;
+        padding-left: 1.5rem;
+        font-size: 1rem;
+        font-weight: 200;
+        border-left: solid 0.25rem #5fc0cd;
+    }
+.content .wrap {
+        position: relative;
+        z-index: -1;
+        margin: 0 1.5rem;
+        padding: 1rem 0.5rem;
+        border-bottom: solid 0.1rem #e1e5e7;
+        font-size: 1rem;
+    }
+.star img {
+        vertical-align: middle;
+        width: 1rem;
+    }
+.star span {
+        vertical-align: middle;
+    }
+.list {
+        margin-left: 1.5rem;
+        padding-left: 1.4rem;
+        border-left: solid 0.1rem #e1e5e7;
+    }
+    .red {
+        color: red;
+    }
+    .gray {
+        color: gray;
+        border-left: none;
+    }
 .laoren{
 	font-size: 1rem;
 	text-indent: -0.5rem;
