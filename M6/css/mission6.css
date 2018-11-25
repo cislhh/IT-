@@ -25,7 +25,7 @@ html {
 }
 
 .select .col-4 {
-	padding: 0 2px;
+	
 }
 
 a {
@@ -52,17 +52,30 @@ a {
 	background-color: #5FC0CD;
 	z-index: 1;
 }
-
+.top{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 1rem;
+}
+button:focus{
+	outline: none;
+}
 .boss,.worker {
-	margin-top: 5%;
+	
 	font-size: 2rem;
 }
-
+.chongdie{
+	background-color: #265A88;
+	border-radius: 5px;
+	
+}
 .boss {
 	background-color: #265A88;
 	color: white;
 	border: 1px solid #265A88;
 	border-radius: 5px;
+	
 }
 
 .worker {
@@ -70,6 +83,12 @@ a {
 	color: #5FC0CD;
 	border: 1px solid white;
 	border-radius: 5px;
+	
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
 .img_year {
@@ -77,11 +96,11 @@ a {
     background: url(../img/spair1.png) -124px -76px;
 }
 .img_target{
-    width: 19px; height: 23px;
+    width: 25px; height: 24px;
     background: url(../img/spair1.png) -113px -126px;
 }
 .img_rua{
-	 width: 17px; height: 33px;
+	width: 17px; height: 33px;
     background: url(../img/spair1.png) -76px -126px;
 }
 
@@ -95,10 +114,11 @@ a {
 	text-overflow: ellipsis;
 	white-space: nowrap;
 	overflow: hidden;
-	margin-left: 1rem;
 }
+
 .time{
 	color: red;
+	font-size: 1.5rem;
 }
 .footer{
 	position: fixed;
