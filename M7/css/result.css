@@ -1,0 +1,167 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 1.6rem;
+	font-size: 62.5%;
+}
+
+header{
+	background-color: #29bde0;
+	z-index: 1;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	
+}
+.heading h2{
+	font-size: 3rem;
+	margin-top: 0.5rem;
+	color: white;
+}
+.heading a{
+	margin: 0.5rem 0 0.5rem 1rem;
+}
+.target_p{
+	font-size: 3rem;
+	margin: 1rem auto;
+	color: #ffc865;
+	font-weight: 700;
+}
+.cuinter{
+	margin-left: 1.5rem;
+}
+.cuinter p{
+	font-size: 2rem;
+	color: white;
+}
+.p1{
+	
+	font-size: 2rem;
+	color: white;
+
+}
+.day{
+	font-size: 2rem;
+}
+.top1{
+	margin-top: 1.5rem;
+	font-size: 2rem;
+	color: #a6a6a6;
+}
+.top2{
+	margin-top: 1.5rem;
+	font-size: 2rem;
+	color: #a6a6a6;
+	margin-top: -1.5rem;
+}
+.line{
+	margin-top: ;
+}
+.yongshi{
+	font-size: 2rem;
+}
+
+.jiesuan{
+	margin-top: 55rem;
+}
+.hang{
+	height: 4.5rem;
+}
+.fotta{
+	background-color: rgba(41,189,224,0.5);
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	padding: 0.7rem;
+}
+.fotta a{
+	font-size: 2rem;
+}
+.a1{
+	background-color: #f66f6f;
+	color: white;
+	width: 15rem;
+	text-align: center;
+	border-radius: 5px;
+}
+.a2{
+	background-color: #FBB435;
+	color: white;
+	width: 15rem;
+	text-align: center;
+	border-radius: 5px
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 500px) {
+    .painter img{
+    margin: auto;
+	height: auto;
+	width: 30rem;
+	}
+	.heading h2{
+		font-size: 2rem;
+	}
+	.target_p{
+	font-size: 2rem;
+	margin: 1rem auto;
+	color: #ffc865;
+	font-weight: 500;
+	}
+	.cuinter p{
+	font-size: 1rem;
+	color: white;
+	}
+	.p1{
+	font-size: 1rem;
+	color: white;
+	}
+	.top1{
+	margin-top: 1rem;
+	font-size: 1.5rem;
+	color: #a6a6a6;
+}
+	.top2{
+	margin-top: 1rem;
+	font-size: 1.5rem;
+	color: #a6a6a6;
+	margin-top: -1.5rem;
+}
+	.yongshi{
+	font-size: 1rem;
+}
+	.day{
+	font-size: 1.5rem;
+}
+.fotta{
+	background-color: rgba(41,189,224,0.5);
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	padding: 0.7rem;
+}
+.fotta a{
+	font-size: 1.5rem;
+}
+.a1{
+	background-color: #f66f6f;
+	color: white;
+	width: 11rem;
+	text-align: center;
+	border-radius: 5px;
+}
+.a2{
+	background-color: #FBB435;
+	color: white;
+	width: 11rem;
+	text-align: center;
+	border-radius: 5px
+}
+}
