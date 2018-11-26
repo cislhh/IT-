@@ -1,3 +1,4 @@
+
 html {
 	font-size: 1.6rem;
 	font-size: 62.5%;
@@ -6,7 +7,8 @@ html {
 .btnimg {
 	position: fixed;
 	right: 1rem;
-	top: 0.5rem;
+	top: 1rem;
+	width: 3rem;
 	display: inline-block;
 }
 
@@ -24,14 +26,16 @@ html {
 	color: gainsboro;
 }
 
-.select .col-4 {
+.select {
 	
 }
 
 a {
 	font-size: 20px;
 }
-
+.btn1{
+	background-image: url(img/}H`$A6%9{3EX{6TUXWMIN{A_03.jpg);
+}
 .btn1:hover {
 	background-color: gainsboro;
 }
@@ -62,18 +66,17 @@ button:focus{
 	outline: none;
 }
 .boss,.worker {
-	
 	font-size: 2rem;
 }
 .chongdie{
-	background-color: #265A88;
+	background-color: #55a8b3;
 	border-radius: 5px;
 	
 }
 .boss {
-	background-color: #265A88;
+	background-color: #55a8b3;
 	color: white;
-	border: 1px solid #265A88;
+	border: 1px solid #55a8b3;
 	border-radius: 5px;
 	
 }
@@ -103,9 +106,14 @@ ul{
 	width: 17px; height: 33px;
     background: url(../img/spair1.png) -76px -126px;
 }
-
+.btn-group{
+	width: 100%;
+}
+.btn:focus{
+	background-color: none;
+}
 .main{
-	margin-top: 11rem;
+	margin-top: 7rem;
 	width: 100%;
 	overflow: hidden;
 }
@@ -124,7 +132,7 @@ ul{
 	position: fixed;
 	bottom: 0;
 	width: 100%;
-	height: 7rem;
+	height: 9rem;
 	background-color: #f8fafb;
 }
 .btn_home{
