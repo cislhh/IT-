@@ -167,6 +167,9 @@ footer a:nth-child(1) {
 button:nth-child(2) {
     background: #fbb435;
 }
+.jiange{
+	height: 2rem;
+}
 .btn {
     padding: 0.1rem;
 }
