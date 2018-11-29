@@ -1,107 +1,72 @@
-*{
-	margin: 0;
-	padding: 0;
-}
-html {
-	font-size: 1.6rem;
-	font-size: 62.5%;
-}
 body{
-	background-color: #f0f0f0;
+	background: #f0f0f0;
 }
-.heading{
-	background-color: #29BDE0;
-	padding: 1rem;
+.full{
+	height: 5rem;
+}
+.head{
 	position: fixed;
-	top: 0;
-	z-index: 1;
-}
-.first{
-	margin-top: 5rem;
 	width: 100%;
-	padding: 3rem;
+	background: #29BDE0;
+	padding: 1rem;
 }
-.first a{
-	background-color: white;
-	color: gray;
-	border: 1px solid #c9c9c9;
-	padding: 2rem;
+.box{
+	padding: 1rem;
 }
-.first img{
-	position: absolute;
-	right: 4rem;
-	width: 2rem;
+.before{
+	margin-bottom: 2rem;
+	padding: 1rem;
+	background: #FFFFFF;
+	color: #A5A5A5;
+	font-size: 1rem;
+	text-align: center;
+	border: 0.1rem solid #C6C8CA;
+}
+.game{
+	border: 0.1rem solid #C6C8CA;
+}
+.before img{
+	float: right;
+	margin-top: -0.5rem;
 }
 a:hover{
 	text-decoration: none;
 }
-
-.top{
-	background-color: white;
-	margin: 0 3rem ;
-	border: 1px solid #c9c9c9 ;
-	height: 42rem;
+.game{
+	text-align: center;
+	background: #FFFFFF;
 }
-.top_first{
-	width: 100%;
+h3{
+	color: #FBB435;
+	padding: 0.8rem;
 }
-.top_first h2{
+hr{
+	background: #FBB435;
+	height: 0.1rem;
+	border: none;
+}
+.version{
+	color: #FFFFFF;
+	background: #29BDE0;
+	font-size: 1.5rem;
 	padding: 1rem;
-	border-bottom: 1px solid #FBB435;
+	margin: 2rem;
 }
-.jiahuanban{
-	background-color: #29BDE0;
-	color: white;
-	width: 80%;
-	margin: 1rem;
-	padding: 2rem;
+.middle{
+	padding: 1rem;
 }
-.jiahuanban h3{
-	font-size: 2rem;
-	font-weight: 600;
-}
-.jiahuanban a{
-	color: white;
-}
-.yonghu p{
-	font-size: 1rem;
-}
-.rounded-circle{
+.circle{
 	width: 1rem;
 	height: 1rem;
+	border-radius: 1rem;
+	margin: 0.1rem;
+	background: #F0F0F0;
 }
-.yuan1{
-	background-color: #69d1e9;
+.circle:hover{
+	background: #29bde0;
 }
-.yuan2{
-	background-color: gray;
-	margin-left: 0.5rem;
-}
-.top img{
-	position: fixed;
-	top: 39rem;
-	
-	right: 4rem;
-	width: 2rem;
+.page{
+	float: right;
+	margin-top: -5.75rem;
 }
 
-.d-flex{
-	margin-bottom: 1rem;
-}
-@media only screen and (max-width: 640px) {
-	html{
-		font-size: 50%;
-	}
-}
-@media only screen and (max-width: 380px) {
-	html{
-		font-size: 40%;
-	}
-	.top img{
-	position: fixed;
-	top: 37.5rem;
-	
-	right: 3.5rem;
-	width: 1.7rem;
-}
-}
