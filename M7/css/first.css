@@ -70,3 +70,15 @@ hr{
 	margin-top: -5.75rem;
 }
 
+
+
+.triangle_border_right span{
+    display:block;
+    width:0;
+    height:0;
+    border-width:28px 0 28px 28px;
+    border-style:solid;
+    border-color:transparent transparent transparent #fc0;/*透明 透明 透明 黄*/
+    float: right;
+	margin-top: -5.75rem;
+}

@@ -10,7 +10,7 @@ body{
 	padding: 0;
 }
 /*header*/
-.img_back{
+/*.img_back{
 	position: fixed;
 	left: 1rem;
 	top: 0.5rem;
@@ -19,14 +19,26 @@ body{
 	position: fixed;
 	right: 1rem;
 	top: 0.5rem;
-}
-header{
+}*/
+.guding{
 	position: fixed;
 	top: 0;
 	height: 6rem;
 	background-color: #29bde0;
 	width: 100%;
 	z-index: 1;
+}
+.juzhong{
+	display: flex;
+	align-items:center ;
+	justify-content: center;
+	height: 6rem;
+}
+.guding p{
+	font-size: 1.5rem;
+	color: white;
+	 -webkit-margin-before: 0em; 
+    -webkit-margin-after: 0em;
 }
 /*speak*/
 .action{
@@ -97,6 +109,11 @@ header{
 }
 .people:hover .choise_picture{
 	transform: scale(1);
+}
+.people img{
+	width: 1.5rem;
+	height: 1.5rem;
+	margin: 0 0.5rem;
 }
 .footing{
 	background-color: #29BDE0;
