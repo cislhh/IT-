@@ -35,7 +35,7 @@ body{
 	height: 6rem;
 }
 .guding p{
-	font-size: 1.5rem;
+	font-size: 3rem;
 	color: white;
 	 -webkit-margin-before: 0em; 
     -webkit-margin-after: 0em;
@@ -56,6 +56,7 @@ body{
 .action_p{
 	font-size: 1.5rem;
 	margin-left: 5rem;
+	color: #FFFFFF;
 }
 .action img{
 	margin-right: 0.5rem;
@@ -75,29 +76,27 @@ body{
 	padding: 0;
 }
 .item{
-	width: 7rem;
+	width: 8rem;
 	margin: 0 auto;
-	height: 7.5rem;
+	height: 8rem;
 	border: 0.25rem solid white;
 }
 .item h3{
-	height: 4rem;
-	font-size: 3rem;
+	line-height: 5rem;
+	height: 5rem;
+	font-size: 2rem;
 	background-color: #fbb435;
 }
 .item p{
-	height: 3rem;
+	height: 2.5rem;
+	line-height: 2.5rem;
 	font-size: 2rem;
 	background-color: #83b09a;
 	position: relative;
 	top: -0.5rem;
 	color: white;
 }
-.choise{
-	width: 100%;
-	margin-top: -1rem;
-	padding: -5rem;
-}
+
 .choise_picture{
 	width: 2rem;
 	height: 2rem;
@@ -105,7 +104,7 @@ body{
 	transition: transform 0.5s linear;
 }
 .people .choise{
-	padding: 20px;
+	margin-top: 1rem;
 }
 .people:hover .choise_picture{
 	transform: scale(1);
@@ -113,7 +112,7 @@ body{
 .people img{
 	width: 1.5rem;
 	height: 1.5rem;
-	margin: 0 0.5rem;
+	margin: 0 0.3rem;
 }
 .footing{
 	background-color: #29BDE0;
