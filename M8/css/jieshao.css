@@ -161,10 +161,10 @@ body{
 .job_width{
 	width: 50%;
 }
-.job_height{
+/*.job_height{
 	height: 2rem;
 	line-height: 2rem;
-}
+}*/
 .job_right{
 	border-right: 1px solid #EDF1F2;
 }

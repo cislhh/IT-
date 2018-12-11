@@ -235,6 +235,14 @@ hr{
 		height: 15rem;
 	}
 	
-	
+
+	.tudou{
+		display: flex;
+		flex-direction: column;
+	}
+	.tudou img{
+		text-align: center;
+		margin: 0;
+	}
 	
 }
