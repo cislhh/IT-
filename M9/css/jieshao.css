@@ -1,0 +1,288 @@
+html {
+	font-size: 1.6rem;
+	font-size: 62.5%;
+}
+h1, h2, h3, h4, h5, h6, p, figure, form, blockquote {
+    margin: 0;
+}
+
+ul, ol, li, dl, dd, a, button {
+    margin: 0;
+    padding: 0;
+}
+
+a, a:link, a:hover, a:active {
+    text-decoration: none;
+    cursor: pointer !important;
+}
+
+
+li{
+	color: #818182;
+}
+p{
+    -webkit-margin-before: 0em; 
+    -webkit-margin-after: 0em;
+}
+body{
+	height: auto;
+	background: #FAFAFA;
+}
+.top {
+	width: 100%;
+	background-color: white;
+}
+
+.telphone {
+	width: 100%;
+	white-space: nowrap;
+}
+
+.telphone p {
+	/*white-space: nowrap;*/
+	color: #29b078;
+}
+
+.fenkai {
+	margin-left: 2rem;
+}
+
+.yitiaoxian {
+	height: 5rem;
+	line-height: 5rem;
+}
+.rexian{
+	display: flex;
+	justify-content: flex-start;
+}
+.qq {
+	/*float: right;*/
+	/*white-space: nowrap;*/
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.qq img {
+	margin-left: 0.5rem;
+	
+}
+
+.daohanglan {
+	width: 100%;
+	background-color: #29b078;
+}
+
+.daohanglan li {
+	position: relative;
+}
+
+.daohanglan a {
+	display: inline-block;
+	font-size: 1.5rem;
+	color: white;
+	text-align: center;
+}
+
+.daohanglan div.xian {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 0.2rem;
+	background-color: white;
+	transform: scale(0);
+	transition: transform 0.3s ease;
+}
+
+.daohanglan li:hover .xian {
+	transform: scale(1);
+}
+.lvse{
+	background-color: #29B078;
+	color: white;
+}
+.lvse p{
+	font-size: 1.5rem;
+}
+.lvse a{
+	color: white;
+	font-size: 1.5rem;
+}
+.lvse a:hover{
+	border-bottom: solid 1px #FFFFFF;
+}
+.yitiao{
+	text-align: center;
+	border-top:1px solid #26c184;
+	font-size: 1.3rem;
+	color: white;
+}
+
+.heading{
+	display: flex;
+}
+.yitiaoxian{
+	border-bottom:0.05px solid darkgray;
+	height: 5rem;
+	line-height: 5rem;
+	
+}
+.buhuanhang {
+	white-space: nowrap;
+}
+.qudian{
+	list-style: none;
+}
+.qudian li a:hover{
+	background-color: green;
+	color: white;
+}
+.qudian li a{
+	text-decoration: none;
+	color: black;
+	margin-left: 1rem;
+	font-size: 1rem;
+}
+.padding_left{
+	padding-left: 0.5rem;
+}
+.padding_right{
+	padding-right: 0.5rem;
+}
+.job{
+	width: 100%;	
+	background-color: white;
+	
+}
+.job p{
+	display: inline-block;
+	color: #A9A9A9;
+	vertical-align: middle;
+}
+.job_width{
+	width: 50%;
+}
+/*.job_height{
+	height: 2rem;
+	line-height: 2rem;
+}*/
+.job_right{
+	border-right: 1px solid #EDF1F2;
+}
+.job_left{
+	border-left: 1px solid #EDF1F2;
+}
+.job img[src="img/033.png"]{
+	margin-left: 0.5rem;
+	vertical-align: middle;
+}
+.job_bottom{
+	border-bottom: 1px solid #edf1f2;
+}
+.introduce{
+	margin-left: 1rem;
+}
+.btttn{
+	visibility: hidden;
+	
+}
+.kejian{
+	display: none;
+}
+
+.job .blacklink{
+	position: absolute;
+	top: 0;
+    bottom: 0;
+    left: 1rem;
+    right: 1rem;
+    padding: 80px 40px;
+    background-color: rgba(0,0,0,0.7);
+    transform: scale(0);
+    transition: transform 0.5s;
+   
+}
+.job:hover .blacklink{
+	transform: scale(1);
+}
+.sign{
+	display: none;
+}
+@media screen and (max-width: 570px) {
+	.juzhong{
+		visibility: hidden;
+		
+	}
+	.btttn{
+		visibility: visible;
+		width: 3rem;
+		height: 3rem;
+		background-color: #29B078;
+		border-color:rgba(255,255,255,0.5);
+		
+	}
+	.btttn:focus{
+		outline: none;
+	}
+	.down a{
+		color: white;
+		font-size: 1.5rem;
+		padding: 0.8rem 0;
+	}
+	.down a:hover{
+		background-color: rgba(255,255,255,0.5);	
+	}
+	
+	.kejian {
+		display: block;
+		background-color: #29b078;
+	}
+	.down{
+		overflow: hidden;
+		height: 0;
+		transition: height 0.5s ease-in-out;
+	}
+	.kejian:hover .down{
+		height: 15rem;
+	}
+	ul{
+		margin: 0;
+	}
+	.kejian .xian{
+	position: absolute;
+	bottom: 0;
+	
+	width: 100%;
+	height: 0.2rem;
+	background-color: white;
+	transform: scale(0);
+	transition: transform 0.3s ease;
+}
+	.kejian li:hover .xian{
+		transform: scale(1);
+	}
+	.kejian li a{
+		font-size: 1.5rem;
+		color: white;
+	}
+	.kejian li{
+		position: relative;
+		text-align: center;
+		padding: 1rem 0;
+	}
+	.top{
+		display: none;
+	}
+	.sign{
+		display: block;
+		background-color: white;
+	}
+	.sign-line{
+		width: 1px;
+		height: 16px;
+		background: #29B078;
+		margin: 2px;
+	}
+	
+	
+}

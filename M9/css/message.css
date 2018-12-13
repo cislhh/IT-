@@ -1,0 +1,289 @@
+html {
+	font-size: 1.6rem;
+	font-size: 62.5%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+form,
+blockquote {
+	margin: 0;
+}
+
+ul,
+ol,
+li,
+dl,
+dd,
+a,
+button {
+	margin: 0;
+	padding: 0;
+}
+
+a,
+a:link,
+a:hover,
+a:active {
+	text-decoration: none;
+	cursor: pointer !important;
+}
+
+li {
+	color: #818182;
+}
+
+p {
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0em;
+}
+
+body {
+	height: auto;
+	background: #FAFAFA
+}
+
+p {
+	font-size: 1.5rem;
+}
+
+.top {
+	width: 100%;
+	background-color: white;
+}
+
+.telphone {
+	width: 100%;
+	white-space: nowrap;
+}
+
+.telphone p {
+	/*white-space: nowrap;*/
+	color: #29b078;
+}
+
+.fenkai {
+	margin-left: 2rem;
+}
+
+.yitiaoxian {
+	height: 5rem;
+	line-height: 5rem;
+}
+.rexian{
+	display: flex;
+	justify-content: flex-start;
+}
+.qq {
+	/*float: right;*/
+	/*white-space: nowrap;*/
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.qq img {
+	margin-left: 0.5rem;
+	
+}
+
+.daohanglan {
+	width: 100%;
+	background-color: #29b078;
+}
+
+.daohanglan li {
+	position: relative;
+}
+
+.daohanglan a {
+	display: inline-block;
+	font-size: 1.5rem;
+	color: white;
+	text-align: center;
+}
+
+.daohanglan div.xian {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 0.2rem;
+	background-color: white;
+	transform: scale(0);
+	transition: transform 0.3s ease;
+}
+
+.daohanglan li:hover .xian {
+	transform: scale(1);
+}
+.lvse{
+	background-color: #29B078;
+	color: white;
+}
+.lvse p{
+	font-size: 1.5rem;
+}
+.lvse a{
+	color: white;
+	font-size: 1.5rem;
+}
+.lvse a:hover{
+	border-bottom: solid 1px #FFFFFF;
+}
+.yitiao{
+	text-align: center;
+	border-top:1px solid #26c184;
+	font-size: 1.3rem;
+	color: white;
+}
+.enterprise{
+	background-color: white;
+}
+.enterprise h5{
+	height: 3rem;
+	line-height: 3rem;
+	font-weight: 600;
+}
+.enterprise ul{
+	list-style-type: none;
+	margin-top: 1.5rem;
+}
+.enterprise li a{
+	color: #1db176;
+	font-size: 1rem;
+}
+.rounded-circle{
+	width: 0.7rem;
+	height: 0.7rem;
+	border: 1px solid #FD7E14;
+	margin-right: 0.5rem;
+}
+li:hover .rounded-circle{
+	background-color: #FD7E14;
+}
+li:hover a{
+	color: #FD7E14;
+}
+.enterprise li{
+	margin-bottom: 4rem;
+}
+hr{
+	height: 1px;
+	width: 100%;
+	border: none;
+	background: #C6C8CA;
+	margin: 0;
+}
+.tudou{
+	padding: 2rem 2rem;
+}
+.tudou img{
+	margin-right: 2rem;
+}
+.tudou p{
+	text-indent: 2em;
+	color: darkgray;
+	margin: 1rem 0;
+}
+.btttn{
+	visibility: hidden;
+	
+}
+.kejian{
+	display: none;
+}
+.sign{
+	display: none;
+}
+@media screen and (max-width: 570px) {
+	.juzhong{
+		visibility: hidden;
+		
+	}
+	.btttn{
+		visibility: visible;
+		width: 3rem;
+		height: 3rem;
+		background-color: #29B078;
+		border-color:rgba(255,255,255,0.5);
+		
+	}
+	.btttn:focus{
+		outline: none;
+	}
+	.down a{
+		color: white;
+		font-size: 1.5rem;
+		padding: 0.8rem 0;
+	}
+	.down a:hover{
+		background-color: rgba(255,255,255,0.5);	
+	}
+	
+	.kejian {
+		display: block;
+		background-color: #29b078;
+	}
+	.down{
+		overflow: hidden;
+		height: 0;
+		transition: height 0.5s ease-in-out;
+	}
+	.kejian:hover .down{
+		height: 15rem;
+	}
+	
+
+	.tudou{
+		display: flex;
+		flex-direction: column;
+	}
+	.tudou img{
+		text-align: center;
+		margin: 0;
+	}
+	ul{
+		margin: 0;
+	}
+	.kejian .xian{
+	position: absolute;
+	bottom: 0;
+	
+	width: 100%;
+	height: 0.2rem;
+	background-color: white;
+	transform: scale(0);
+	transition: transform 0.3s ease;
+}
+	.kejian li:hover .xian{
+		transform: scale(1);
+	}
+	.kejian li a{
+		font-size: 1.5rem;
+		color: white;
+	}
+	.kejian li{
+		position: relative;
+		text-align: center;
+		padding: 1rem 0;
+	}
+	.top{
+		display: none;
+	}
+	.sign{
+		display: block;
+		background-color: white;
+	}
+	.sign-line{
+		width: 1px;
+		height: 16px;
+		background: #29B078;
+		margin: 2px;
+	}
+}
