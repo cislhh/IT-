@@ -1,0 +1,279 @@
+html {
+	font-size: 1.6rem;
+	font-size: 62.5%;	
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, figure, form, blockquote {
+    margin: 0;
+}
+
+ul, ol, li, dl, dd, a, button {
+    margin: 0;
+    padding: 0;
+}
+
+a, a:link, a:hover, a:active {
+    text-decoration: none;
+    cursor: pointer !important;
+    
+}
+body{
+	background-color: white;
+	
+}
+p{
+    -webkit-margin-before: 0em; 
+    -webkit-margin-after: 0em;
+}
+.margintop{
+	margin-top: 2rem;
+}
+/*头部*/
+.bColor{
+	background-color: #1d7ad9;
+	width: 100%;
+}
+.tIttle{
+	height: 3rem;
+	line-height: 3rem;
+}
+.tIttle p{
+	color: white;
+}
+.tIttle_a{
+	color: white;
+}
+.tIttle a{
+	padding: 0 3rem;
+	text-align: center;
+	white-space: nowrap;
+}
+.tIttle_a:hover a:hover{
+	color: #000000;
+	background-color: white;
+}
+/*导航栏 正*/
+.zheng{
+	background-color: #F9F9F9;
+	padding-bottom: 2rem;
+}
+.btn_padding button{
+	margin-top: 1.5rem;
+	margin-left: 1.5rem;
+	padding: 0.5rem 3rem;
+	white-space: nowrap;
+	border: none;
+	outline: none;
+	background-color: white;
+}
+.btn_padding button:hover{
+	background-color: #1D7AD9;
+	color: white;
+	border: none;
+	outline: none;
+}
+.btn_padding button:hover a{
+	color: white;
+}
+.btn_padding button a{
+	color: black;
+}
+/*导航栏 反*/
+.fan{
+	display: none;
+}
+/*流程*/
+.liucheng_xian{
+	height: 0.5rem;
+	line-height: 0.5rem;
+	border-radius: 10px;
+	width: 8rem;
+	background-color: darkgray;
+}
+
+.rounded-circle{
+	width: 2rem;
+	height: 2rem;
+	background-color: darkgray;
+	border: 1px solid darkgray;
+	line-height: 2rem;
+	color: white;
+}
+
+.liucheng p{
+	margin-top: 1rem;
+}
+.liucheng:hover{
+	color: #FF7F02;
+}
+.liucheng:hover .liucheng_xian{
+	background-color: #FF7F02;
+}
+.liucheng:hover .rounded-circle{
+	background-color: #FF7F02;
+	border: 1px solid #FF7F02;
+}
+/*表单*/
+
+input{
+    vertical-align:middle;
+   
+}
+label{
+	vertical-align: middle;
+	
+}
+.hover_blue{
+	margin-right: 1rem;
+}
+.buzhou{
+	border-left: 4px solid #1d7ad9;
+}
+.buzhou p{
+	font-size: 1.3rem;
+	color: black;
+	font-weight: 300;
+	text-indent: 0.5em;
+}
+.box_line{
+	padding: 0.5rem 1rem;
+		vertical-align: middle;
+}
+.box_line img{
+	width: 1.2rem;
+	height: 1.2rem;
+
+}
+.box_line p{
+	text-indent: 1em;
+	font-size: 1.2rem;
+	color: #1d7ad9;
+	font-weight: 500;
+	
+}
+.pad_form{
+	padding: 1rem 2rem;
+	vertical-align:middle;
+}
+
+select::-ms-expand{ display: none; }
+.form_select{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	background: url(../img/select.png) no-repeat scroll right center transparent;
+	width: 6.5rem;
+	height: 2rem;
+}
+.back_w{
+	background-color: white;
+}
+.next{
+	background-color: red;
+	color: white;
+	font-size: 3rem;
+	font-weight: 600;
+	border: 1px solid red;
+	border-radius: 10px;
+	width: 20rem;
+}
+
+
+/*input{
+    vertical-align:middle;
+}
+label{
+	vertical-align: middle;
+	display: inline-block;
+}
+select{
+	margin-right:1.5rem ;
+}
+span{
+	margin-left: 1rem;
+}
+span input{
+	margin: 0 0.5rem;
+}
+.back_w{
+	background-color: white;
+}
+.label_pad{
+	padding: 0.5rem 1rem;
+}
+.label_pad2{
+	padding: 1rem 3rem 1rem 1rem;
+}
+.buzhou{
+	border-left: 4px solid #1d7ad9;
+}
+.buzhou p{
+	font-size: 1.5rem;
+	color: black;
+	font-weight: 300;
+	text-indent: 0.5em;
+}
+.xiangzi{
+	background-color: #f3f3f3;
+}
+.xiangzi_line{
+	padding: 0.5rem 1rem;
+}
+.xiangzi_line p{
+	color: #1D7AD9;
+	margin-left: 0.5rem;
+	font-weight: 600;
+}*/
+
+
+
+
+
+@media screen and (max-width: 555px) {
+	.tIttle p{
+		display: none;
+	}
+	.zheng{
+	display: none;
+	}
+	.fan{
+	display: block;
+	background-color:  #f9f9f9;
+	}
+	.btttn{
+		background-color:#1d7ad9;
+		padding: 0.5rem;
+		border: none;
+		position: absolute;
+		top: 1.85px;
+		outline: none;
+	}
+	.btttn:hover{
+		outline: none;
+		border: none;
+	}
+	.xian{
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		height: 0.2rem;
+		background-color: black;
+		transform: scale(0);
+		transition: transform 2s ease;
+	}
+	.fan li:hover .xian{
+		transform: scale(1);
+	}
+	.fan li a{
+		font-size: 1.5rem;
+		color: black;
+	}
+	.fan li{
+		position: relative;
+		padding: 1rem 0;
+	}
+	
+}

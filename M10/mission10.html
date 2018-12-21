@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" />
+		<title>Mission10</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link type="text/css" rel="stylesheet" href="css/bootstrap-4.1.3-dist/css/bootstrap.min.css" />
+		<link type="text/css" rel="stylesheet" href="css/mission10.css" />
+		<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+		<script src="css/bootstrap-4.1.3-dist/js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		<!--头部-->
+		<div class="container-fluid bColor">
+			<div class="container">
+				<div class="d-flex justify-content-between tIttle">
+					<div class="d-flex justify-content-center">
+						<p>客服热线：010-594-78634</p>
+					</div>
+					<div class="d-flex justify-content-center tIttle_a">
+						<a>登录</a>
+						<a>注册</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--导航栏 正-->
+		<div class="container-fluid zheng">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6"></div>
+					<div class="col-lg-6 d-flex justify-content-end btn_padding">
+						<button type="button"><a href="#">首页</a></button>
+						<button type="button"><a href="#">在线定制</a></button>
+						<button type="button"><a href="#">标准箱</a></button>
+						<button type="button"><a href="#">品质保障</a></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--导航栏 反-->
+		<div class="fan">
+			<button type="button" class="btttn" data-toggle="collapse" data-target="#demo123">
+				<img src="img/menu.png" />
+			</button>
+			<div id="demo123" class="collapse">
+				<ul>
+					<li class="d-flex justify-content-center">
+						<a href="#">首页</a>
+						<div class="xian"></div>
+					</li>
+					<li class="d-flex justify-content-center">
+						<a href="#">在线定制</a>
+						<div class="xian"></div>
+					</li>
+					<li class="d-flex justify-content-center">
+						<a href="#">标准箱</a>
+						<div class="xian"></div>
+					</li>
+					<li class="d-flex justify-content-center">
+						<a href="#">品质保障</a>
+						<div class="xian"></div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<!--流程-->
+		<div class="container margintop">
+			<div class="d-flex justify-content-end">
+				<div class="d-flex flex-column liucheng">
+					<div class="liucheng_xian d-flex justify-content-center align-items-center">
+						<div class="rounded-circle text-center">1</div>
+					</div>
+					<p class="text-center">1.定制纸箱 </p>
+				</div>
+				<div class="d-flex flex-column liucheng">
+					<div class="liucheng_xian d-flex justify-content-center align-items-center">
+						<div class="rounded-circle text-center">2</div>
+					</div>
+					<p class="text-center">2.选择数量 </p>
+				</div>
+				<div class="d-flex flex-column liucheng">
+					<div class="liucheng_xian d-flex justify-content-center align-items-center">
+						<div class="rounded-circle text-center">3</div>
+					</div>
+					<p class="text-center">3.上传附件 </p>
+				</div>
+				<div class="d-flex flex-column liucheng">
+					<div class="liucheng_xian d-flex justify-content-center align-items-center">
+						<div class="rounded-circle text-center">4</div>
+					</div>
+					<p class="text-center">4.确认下单 </p>
+				</div>
+			</div>
+		</div>
+		<!--表单-->
+		<div class="container margintop">
+			<div class="buzhou">
+				<p>请您按照以下步骤来定制您的纸箱</p>
+			</div>
+			<div class="row" style="background-color: #f3f3f3;">
+				<div class="col">
+					<!--选择箱型-->
+					<div class="row">
+						<div class="col">
+							<div class="d-flex align-items-center box_line">
+								<img src="img/未标题-1_03.png" alt="" />
+								<p>选择箱形</p>
+							</div>
+						</div>
+					</div>
+					<div class="row" style="background-color: white;">
+						<div class="col">
+							<form>
+								<div class="row">
+									<div class="col-6 col-md-10 col-xl-10">
+										<div class="row">
+											<div class="col-12 col-md-6 col-xl-2 d-flex align-items-center pad_form">
+												<label style="margin-left: 0.5rem;" for="type1"><input class="hover_blue" type="radio" name="type" id="type1">对口箱</label>
+											</div>
+											<div class="col-12 col-md-6 col-xl-2 d-flex align-items-center pad_form">
+												<label style="margin-left: 0.5rem;" for="type2"><input class="hover_blue" type="radio" name="type" id="type2">飞机盒</label>
+											</div>
+											<div class="col-12 col-md-6 col-xl-2 d-flex align-items-center pad_form">
+												<label style="margin-left: 0.5rem;" for="type3"><input class="hover_blue" type="radio" name="type" id="type3">天地盖</label>
+											</div>
+										</div>
+									</div>
+									<div class="col-6 col-md-2 col-xl-2 d-flex align-items-center justify-content-end">
+										<div class="d-flex justify-content-center">
+											<select class="form_select">
+												<option value="0">查看详情</option>
+												<option value="1">查看详情</option>
+												<option value="2">查看详情</option>
+											</select>
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+					<!--确认尺寸-->
+					<div class="row" >
+						<div class="col">
+							<div class="d-flex align-items-center box_line">
+								<img src="img/未标题-1_13.png" alt="" />
+								<p>确认尺寸</p>
+							</div>
+							<div class="row" style="background-color: white;">
+								<div class="col">
+									<form>
+										
+											<div class="row">
+												<div class="col-6 col-md-10 col-xl-10">
+													<div class="row">
+														<div class="col-12 col-md-6 col-xl-3 d-flex align-items-center pad_form">
+															<div class="rel">
+																<label style="margin-left: 0.5rem;" for="type9"><input class="hover_blue" type="radio" name="type" id="type9">内径</label>
+															</div>
+														</div>
+														<div class="col-12 col-md-6 col-xl-3 d-flex align-items-center pad_form">
+															<div class="rel">
+																<label style="margin-left: 0.5rem;" for="width1">长<input class="" type="number" name="test" id="width1" style="width: 5rem;">mm</label>
+															</div>
+														</div>
+														<div class="col-12 col-md-6 col-xl-3 d-flex align-items-center pad_form">
+															<div class="rel">
+																<label style="margin-left: 0.5rem;" for="width2">宽<input class="" type="number" name="test" id="width2" style="width: 5rem;">mm</label>
+															</div>
+														</div>
+														<div class="col-12 col-md-6 col-xl-3 d-flex align-items-center pad_form">
+															<div class="rel">
+																<label style="margin-left: 0.5rem;" for="width3">高<input class="" type="numeber" name="test" id="width3" style="width: 5rem;">mm</label>
+															</div>
+														</div>
+													</div>
+													<div class="row">
+														<div class="col-12 col-md-6 col-xl-3 d-flex align-items-center pad_form">
+															<div class="rel">
+																<label style="margin-left: 0.5rem;" for="type8"><input class="hover_blue" type="radio" name="type" id="type8">外径</label>
+															</div>
+														</div>
+														<div class="col-12 col-md-6 col-xl-3 d-flex align-items-center pad_form">
+															<div class="rel">
+																<label style="margin-left: 0.5rem;" for="width1">长<input class="" type="number" name="test" id="width1" style="width: 5rem;">mm</label>
+															</div>
+														</div>
+														<div class="col-12 col-md-6 col-xl-3 d-flex align-items-center pad_form">
+															<div class="rel">
+																<label style="margin-left: 0.5rem;" for="width2">宽<input class="" type="number" name="test" id="width2" style="width: 5rem;">mm</label>
+															</div>
+														</div>
+														<div class="col-12 col-md-6 col-xl-3 d-flex align-items-center pad_form">
+															<div class="rel">
+																<label style="margin-left: 0.5rem;" for="width3">高<input class="" type="number" name="test" id="width3" style="width: 5rem;">mm</label>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-6 col-md-2 col-xl-2 d-flex justify-content-end align-items-center">
+													<div class="d-flex justify-content-center">
+														<select class="form_select">
+															<option value="0">查看详情</option>
+															<option value="1">查看详情</option>
+															<option value="2">查看详情</option>
+														</select>
+													</div>
+												</div>
+											</div>
+											
+												
+											
+											
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!--选择材质-->
+					<div class="row">
+						<div class="col">
+							<div class="d-flex align-items-center box_line">
+								<img src="img/未标题-1_10.png" alt="" />
+								<p>选择材质</p>
+							</div>
+						</div>
+					</div>
+					<div class="row" style="background-color: white;">
+						<div class="col">
+							<form>
+								<div class="row">
+									<div class="col-6 col-md-11 col-xl-11">
+										<div class="row">
+											<div class="col-12 col-md-6 col-xl-2 d-flex align-items-center pad_form">
+											<label style="margin-left: 0.5rem;" for="typ1"><input class="hover_blue" type="radio" name="type" id="typ1">一层A瓦优质</label>
+											</div>
+											<div class="col-12 col-md-6 col-xl-2 d-flex align-items-center pad_form">
+												<label style="margin-left: 0.5rem;" for="typ2"><input class="hover_blue" type="radio" name="type" id="typ2">二层A瓦优质</label>
+											</div>
+											<div class="col-12 col-md-6 col-xl-2 d-flex align-items-center pad_form">
+												<label style="margin-left: 0.5rem;" for="typ3"><input class="hover_blue" type="radio" name="type" id="typ3">三层A瓦优质</label>
+											</div>
+											<div class="col-12 col-md-6 col-xl-2 d-flex align-items-center pad_form">
+												<label style="margin-left: 0.5rem;" for="typ4"><input class="hover_blue" type="radio" name="type" id="typ4">三层B瓦优质</label>
+											</div>
+											<div class="col-12 col-md-6 col-xl-2 d-flex align-items-center pad_form">
+												<label style="margin-left: 0.5rem;" for="typ5"><input class="hover_blue" type="radio" name="type" id="typ5">三层C瓦优质</label>
+											</div>
+										</div>
+									</div>
+									<div class="col-6 col-md-1 col-xl-1 d-flex align-items-center justify-content-end">
+									<div class="d-flex justify-content-center">
+										
+											<select class="form_select">
+												<option value="0">查看详情</option>
+												<option value="1">查看详情</option>
+												<option value="2">查看详情</option>
+											</select>
+										
+									</div>
+								</div>
+							</form>
+						</div>
+					</div>
+					</div>
+					<div class="row bg-white border">
+						<div class="col d-flex justify-content-center align-items-center" style="height: 20rem;">
+							<button type="button" class="next" style="outline: none;">下一步</button>
+						</div>
+					</div>
+				</div>
+	</body>
+
+</html>
