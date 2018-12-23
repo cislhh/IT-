@@ -1,0 +1,119 @@
+html {
+    font-size: 1.6rem;
+    font-size: 62.5%;   
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, figure, form, blockquote {
+    margin: 0;
+}
+
+ul, ol, li, dl, dd, a, button, hr {
+    margin: 0;
+    padding: 0;
+}
+
+a, a:link, a:hover, a:active {
+    text-decoration: none;
+    cursor: pointer !important;
+    
+}
+body{
+    background-color: white;
+    
+}
+p{
+    -webkit-margin-before: 0em; 
+    -webkit-margin-after: 0em;
+}
+
+
+@color_blue: #1ca9f3;
+@color_white: white;
+@color_black: black;
+@1: 1rem;
+@2: 2rem;
+@1_5:1.5rem;
+@body_color: #f3f3f3;
+@width_100:100%;
+
+
+
+body{
+    background-color: @body_color;
+}
+.header{
+    background-color: @color_blue;
+    white-space: nowrap;
+}
+.header img{
+    width: @2;
+    height: @2;
+}
+.header p{
+    color: @color_white;
+    font-size: @1_5;
+}
+
+.input-group-text {
+  background-color: @color_white;
+  border: none;
+  outline: none;
+  
+}
+.form-control{
+    border: none;
+    border-left: 1px solid @color_black;
+    padding-left: @1;
+    margin-left: @1;
+    outline: none;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: @color_black;
+    outline: 0;
+    box-shadow: 0 0 0 .2rem rgba(255, 255, 255, .25)
+}
+input{
+    padding: @1;
+   
+}
+
+.label_tel,.label_pas{
+    padding: @1;   
+    background-color: @color_white;
+}
+.label_btn{
+    width: @width_100;
+    background-color: @color_blue;
+    border: 1px solid @color_blue;
+    border-radius: 10px;
+    font-size: @2;
+    color: @color_white;
+    padding: @1 0;
+    outline: none;
+}
+.join a{
+    color: grey;
+    font-size: @1_5;
+}
+.xian{
+    width: @width_100;
+    height: 0.5px;
+    border: 0.5px solid gray;
+    color: gray;
+}
+.xian p{
+    background-color: @body_color;
+    padding: 0 @1;
+}
+.biger img{
+    width: 4rem;
+    height: 4rem;
+}
+.biger p{
+    margin-top: @1;
+}
