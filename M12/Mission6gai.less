@@ -20,6 +20,16 @@ a{
 @size1_5: 1.5rem;
 @size2: 2rem;
 @color_b: #55a8b3;
+@color_w: #FFFFFF;
+.bgc_f8ab(){
+    background-color: #f8fafb;
+}
+.M1_1(){
+    margin: 1rem 0;
+}
+.fw200(){
+    font-weight: 200;
+}
 .hover_color(){
     background-color: gainsboro;
 }
@@ -30,18 +40,26 @@ a{
   padding-right: 15px;
   padding-left: 15px;
 }
+.bordernope(){
+    border: none;
+}
 .bordernone(){
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
 }
+.mt1{
+    margin-top: @size1;
+}
 //
+
 .btnimg {
     position: fixed;
     right: @size1;
     top: @size1;
     width: 3rem;
     display: inline-block;
+    
 }
 
 .btn {
@@ -54,7 +72,7 @@ a{
 }
 
 .btn-primary {
-    background-color: white;
+    background-color: @color_w;
     color: gainsboro;
 }
 
@@ -101,16 +119,16 @@ button:focus{
 }
 .boss {
     background-color: @color_b;
-    color: white;
+    color: @color_w;
     border: 1px solid #55a8b3;
     border-radius: 5px;
     
 }
 
 .worker {
-    background-color: white;
+    background-color: @color_w;
     color: #5FC0CD;
-    border: 1px solid white;
+    border: 1px solid @color_w;
     border-radius: 5px;
     
 }
@@ -132,7 +150,7 @@ ul{
 .img_rua{
     width: 20px; height: 33px;
     background: url(../img/spair1.png) -76px -126px;
-   padding-right: 1rem;
+   padding-right: @size1;
 }
 .btn-group{
     width: @width100;
@@ -147,14 +165,17 @@ ul{
 }
 
 .graycolor{
+    .fw200();
    .bordernone();
 }
 .graycolor1{
     .bordernone();
+    .fw200();
   margin-left: 0.8rem;
 }
 .graycolor2{
       .bordernone();
+      .M1_1();
   margin-left: 3rem;
 }
 
@@ -167,11 +188,11 @@ ul{
     bottom: 0;
     width: @width100;
     height: 9rem;
-    background-color: #f8fafb;
+    .bgc_f8ab();
 }
 .btn_home{
-    background-color: #f8fafb;
-    border: none;
+    .bgc_f8ab();
+    .bordernope()
 }
 
 
@@ -198,7 +219,7 @@ ul{
     justify-content: center;
 }
 .max_box{
-      width: 100%;
+      width: @width100;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -226,7 +247,7 @@ ul{
 }
 .flex_col4{
      position: relative;
-  width: 100%;
+  width: @width100;
   min-height: 1px;
    -ms-flex: 0 0 33.333333%;
   flex: 0 0 33.333333%;
@@ -237,11 +258,11 @@ ul{
     -moz-appearance: none;
     -webkit-appearance: none;
     background: url(../img/未标题-1_03.png) no-repeat scroll right center transparent;
-    background-color: white;
+    background-color: @color_w;
      width: 33.3%;
      font-size: @size1;
      color: #C0C0C0;
-     border: none;
+     .bordernope();
      border-right: 1px solid #C0C0C0;
     border-bottom: 1px solid #C0C0C0;
     border-bottom-right-radius: 5px;
@@ -265,8 +286,8 @@ option{
 html {
   font-family: sans-serif;
   line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: @width100;
+  -ms-text-size-adjust: @width100;
   -ms-overflow-style: scrollbar;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -276,13 +297,13 @@ html {
 }
 
 h3{
-    margin: 0 1rem;
+    margin: 0 @size1;
 }
 
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1rem;
+  font-size: @size1;
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
