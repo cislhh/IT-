@@ -111,7 +111,7 @@ ul {
   background-color: none;
 }
 .main {
-  margin-top: 7rem;
+  margin-top: 9rem;
   width: 100%;
   overflow: hidden;
 }
@@ -223,14 +223,14 @@ ul {
   border-bottom: 1px solid #C0C0C0;
   border-bottom-right-radius: 5px;
   border-top-right-radius: 5px;
-  height: 2rem;
   font-size: 1.5rem;
   outline: none;
   text-align: center;
   text-align-last: center;
+  padding: 0.5rem 0;
 }
 option {
-  padding-left: 15%;
+  padding: 2rem 0;
 }
 *,
 *::before,
