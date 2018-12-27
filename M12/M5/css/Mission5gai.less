@@ -28,6 +28,21 @@ header span{
 @size1: 1rem;
 @size1_5: 1.5rem;
 @size2: 2rem;
+@size1_4:1.4rem;
+@color_e157: #e1e5e7;
+@border_solid: solid;
+.fw200(){
+    font-weight: 200;
+}
+.cr(){
+    color: red;
+}
+.cg(){
+    color: gray;
+}
+.Bgc_e157(){
+    background-color: #E1E5E7;
+}
 .juzhong(){
     vertical-align: middle;
 }
@@ -49,26 +64,26 @@ header span{
 }
 .list {
     margin-left: @size1_5;
-    padding-left: 1.4rem;
-    border-left: solid 0.1rem #e1e5e7;
+    padding-left: @size1_4;
+    border-left: @border_solid 0.1rem @color_e157;
 }
 .red {
-    color: red;
+    .cr();
 }
 .gray {
-    color: gray;
+    .cg();
 }
 .content p {
     margin: @size2 @size1_5;
     padding-left: @size1_5;
     font-size: @size2;
-    font-weight: 200;
-    border-left: solid 0.25rem #5fc0cd;
+    font-weight: .fw200();
+    border-left: @border_solid 0.25rem #5fc0cd;
 }
 .content hr {
     height: 0.1rem;
     border-width: 0;
-    background-color: #e1e5e7;
+    .Bgc_e157();
 }
 .content .star {
     .inline-block();
@@ -78,14 +93,13 @@ header span{
     z-index: -1;
     margin: 0 @size1_5;
     padding: @size2 @size1_5;
-    border-bottom: solid 0.1rem #e1e5e7;
+    border-bottom: @border_solid 0.1rem @color_e157;;
     font-size: @size2;
 }
 .footing{
     position: fixed;
     bottom: 0rem;
     width: @width100;
-    
     background-color: white;
     display: flex;
     justify-content: space-around;
@@ -94,7 +108,7 @@ header span{
     
     width: 40%;
     padding: 1rem 0;
-    border: 0.2rem solid #5FC0CD;
+    border: 0.2rem @border_solid #5FC0CD;
     border-radius: 0.5rem;
     font-size: 1.5rem;
     margin-top: 1%;
@@ -111,7 +125,7 @@ header span{
     .inline-block();
     padding-left: @size1;
     margin-left: 10rem;
-    border-left: solid 0.1rem #e1e5e7;
+    border-left: @border_solid 0.1rem @color_e157;
 }
 .laoren{
     font-size: @size2;
