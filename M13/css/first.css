@@ -1,0 +1,133 @@
+.mt1 {
+  margin-top: 1rem;
+}
+body {
+  background: #f0f0f0;
+}
+.full {
+  height: 5rem;
+}
+.head {
+  position: fixed;
+  width: 100%;
+  background-color: #29BDE0;
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-start;
+}
+.box {
+  padding: 1rem;
+}
+#sidemenu {
+  display: none;
+}
+#sidemenu:checked + aside {
+  left: 0;
+}
+#sidemenu:checked ~ #qw {
+  overflow: hidden;
+  margin-left: 30%;
+  margin-right: -30%;
+  transition: 0.3s ease-out;
+}
+aside {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 30%;
+  left: -30%;
+  height: 958.78px;
+  background-color: #FFFFFF;
+  transition: 0.3s ease-out;
+}
+#sideul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #29BDE0;
+  width: 100%;
+  height: 3rem;
+  font-size: 1rem;
+  white-space: nowrap;
+  border-bottom: 1px solid #eceded;
+}
+.before {
+  margin-bottom: 2rem;
+  padding: 1rem;
+  background: #FFFFFF;
+  color: #A5A5A5;
+  font-size: 1rem;
+  text-align: center;
+  border: 0.1rem solid #C6C8CA;
+}
+.game {
+  border: 0.1rem solid #C6C8CA;
+}
+.before img {
+  float: right;
+  margin-top: -1.7rem;
+  margin-right: -0.5rem;
+}
+a:hover {
+  text-decoration: none;
+}
+.game {
+  text-align: center;
+  background: #FFFFFF;
+}
+h3 {
+  color: #FBB435;
+  padding: 0.8rem;
+}
+hr {
+  background: #FBB435;
+  height: 0.1rem;
+  border: none;
+}
+.version {
+  color: #FFFFFF;
+  background: #29BDE0;
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin: 2rem;
+}
+.middle {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+}
+.circle {
+  width: 1rem;
+  height: 1rem;
+  border-radius: 1rem;
+  margin: 0.1rem;
+  background: #F0F0F0;
+}
+.circle:hover {
+  background: #29bde0;
+}
+.page {
+  float: right;
+  margin-top: -5.75rem;
+}
+.triangle_border_right1 span {
+  display: block;
+  width: 0;
+  height: 0;
+  border-width: 28px 0 28px 28px;
+  border-style: solid;
+  border-color: transparent transparent transparent gray;
+  float: right;
+  margin-top: -2.1rem;
+}
+.triangle_border_right span {
+  display: block;
+  width: 0;
+  height: 0;
+  border-width: 28px 0 28px 28px;
+  border-style: solid;
+  border-color: transparent transparent transparent #fc0;
+  /*透明 透明 透明 黄*/
+  float: right;
+  margin-top: -5.75rem;
+}
