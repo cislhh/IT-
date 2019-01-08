@@ -1,0 +1,285 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+figure,
+form,
+blockquote {
+  margin: 0;
+}
+ul,
+ol,
+li,
+dl,
+dd,
+a,
+button {
+  margin: 0;
+  padding: 0;
+}
+a,
+a:link,
+a:hover,
+a:active {
+  text-decoration: none;
+  cursor: pointer !important;
+}
+ul {
+  margin-bottom: 1rem;
+}
+li {
+  color: #818182;
+}
+p {
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
+body {
+  height: auto;
+  background: #FAFAFA;
+}
+h3 {
+  font-weight: 600;
+}
+.top {
+  padding: 0 1.5rem;
+  background-color: #FFFFFF;
+  white-space: nowrap;
+}
+.telphone p {
+  /*white-space: nowrap;*/
+  color: #29b078;
+}
+.fenkai {
+  margin-left: 2rem;
+}
+.yitiaoxian {
+  height: 5rem;
+  line-height: 5rem;
+}
+.qq img {
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.daohanglan {
+  height: 5rem;
+  line-height: 5rem;
+  background-color: #29b078;
+}
+.daohanglan li {
+  position: relative;
+}
+.daohanglan a {
+  display: inline-block;
+  font-size: 1.1rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+.daohanglan div.xian {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 0.2rem;
+  background-color: #FFFFFF;
+  transform: scale(0);
+  transition: transform 0.3s ease;
+}
+.daohanglan li:hover .xian {
+  transform: scale(1);
+}
+.specil {
+  margin-top: 10rem;
+}
+.specil h3 {
+  margin: 1rem 0;
+  font-weight: 700;
+}
+.specil p {
+  font-size: 1.5rem;
+  color: #999999;
+}
+span {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.peps {
+  margin-bottom: 2.5rem;
+}
+.lineheight {
+  height: 5rem;
+  line-height: 5rem;
+}
+.zuo {
+  margin-left: 1rem;
+}
+.specil .zuo {
+  border-left: 1px dashed #DEDEDE;
+}
+.stydy {
+  margin-top: 20rem;
+}
+.juzhong {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.stydy h3 {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+.peps {
+  margin-bottom: 2rem;
+}
+.rounded-circle {
+  width: 5rem;
+  height: 5rem;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  line-height: 5rem;
+  font-size: 2rem;
+  color: green;
+  border-radius: 50% !important;
+}
+.fontSize {
+  padding: 0 1rem;
+}
+.Padding {
+  margin-top: 3rem;
+}
+.circle {
+  margin-top: 1rem;
+}
+.circle {
+  border-radius: 50%;
+}
+.yuan1 {
+  background-color: #29b078;
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid #29B078;
+  border-radius: 50%;
+}
+.yuan2 {
+  background-color: #FFFFFF;
+  width: 1rem;
+  height: 1rem;
+  border: 1px solid #DEDEDE;
+  border-radius: 50%;
+  margin-left: 1rem;
+}
+.dingbuwe {
+  margin-top: 5rem;
+}
+.dingjuli {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+.gao {
+  margin-top: 10rem;
+}
+.marginTop {
+  margin-top: 10rem;
+}
+.zhanlue {
+  background-color: #FFFFFF;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5rem;
+  margin-bottom: 10rem;
+  box-shadow: 0px 1px 0.5px 0.5px #e2e2e2;
+}
+.box {
+  height: 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box:hover {
+  box-shadow: 0px 0px 3px 1px #e2e2e2;
+}
+.zhaogongzuo a {
+  font-size: 1.2rem;
+  color: #DEDEDE;
+}
+.zhaogongzuo a:hover {
+  border-bottom: solid 1px #29B078;
+}
+.lvse {
+  background-color: #29B078;
+  color: #FFFFFF;
+}
+.lvse p {
+  font-size: 1.5rem;
+}
+.lvse a {
+  color: #FFFFFF;
+  font-size: 1.5rem;
+}
+.lvse a:hover {
+  border-bottom: solid 1px #FFFFFF;
+}
+.yitiao {
+  text-align: center;
+  border-top: 1px solid #26c184;
+  font-size: 1.3rem;
+  color: #FFFFFF;
+}
+.btttn {
+  display: none;
+}
+.kejian {
+  display: none;
+}
+.collapse:not(.show) {
+  display: none;
+}
+@media (max-width: 577px) {
+  .zuo {
+    display: flex;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 570px) {
+	.daohanglan{
+		display: none;
+	}
+  .juzhong {
+    visibility: hidden;
+  }
+  .btttn {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    background-color: #29B078;
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+  .btttn:focus {
+    outline: none;
+  }
+  .down a {
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    padding: 0.8rem 0;
+  }
+  .down a:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  .kejian {
+    display: block;
+    background-color: #29b078;
+  }
+  .down {
+    overflow: hidden;
+    height: 0;
+    transition: height 0.5s ease-in-out;
+  }
+  .kejian:hover .down {
+    height: 15rem;
+  }
+}

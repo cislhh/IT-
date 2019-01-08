@@ -1,0 +1,350 @@
+//less
+@100: 100%;
+@30: 30%;
+@size1: 1rem;
+@size1_5: 1.5rem;
+@size2: 2rem;
+@ce: center;
+@border_solid: solid;
+@color_gr: #f0f0f0;
+@color_b: #000000;
+@color_w: #FFFFFF;
+.W100(){
+    width: @100;
+}
+.fs1(){
+    font-size: @size1;
+}
+.fs1_5(){
+    font-size: @size1_5;
+}
+.fs2(){
+    font-size: @size2;
+}
+.mt1(){
+    margin-top: @size1;
+}
+.mt2(){
+    margin-top: @size2;
+}
+.mb05(){
+    margin-bottom: 0.5rem;
+}
+.z-i(){
+    z-index: 1;
+}
+.t-ce(){
+    text-align: @ce;
+}
+.f-ce(){
+    justify-content: @ce;
+}
+.a-it-ce(){
+    align-content: @ce;
+}
+.cr(){
+    color: red;
+}
+.cg(){
+    color: gray;
+}
+.cw(){
+    color: @color_w;
+}
+.cb(){
+    color: @color_b;
+}
+.bgc_Black(){
+    background-color:@color_b;
+}
+.bgc_White(){
+    background-color: @color_w;
+}
+.Bgc_e157(){
+    background-color: #E1E5E7;
+}
+.bgc_f8ab(){
+    background-color: #f8fafb;
+}
+.fw200(){
+    font-weight: 200;
+}
+.juzhong(){
+    vertical-align: middle;
+}
+.D-ib(){
+    display: inline-block;
+}
+.D-in(){
+    display: inline;
+}
+.D-bl(){
+    display: block;
+}
+
+.M1_1(){
+    margin: @size1 0;
+}
+.col(){
+  position: relative;
+  .W100();
+  min-height: 1px;
+}
+.bordernope(){
+    border: none;
+}
+.bordernone(){
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+//
+
+
+html {
+    font-size: 1.6rem;
+    font-size: 62.5%;
+}
+h1, h2, h3, h4, h5, h6, p, figure, form, blockquote {
+    margin: 0;
+}
+
+ul, ol, li, dl, dd, a, button {
+    margin: 0;
+    padding: 0;
+}
+
+a, a:link, a:hover, a:active {
+    text-decoration: none;
+    cursor: pointer !important;
+}
+
+
+li{
+    color: #818182;
+}
+p{
+    -webkit-margin-before: 0em; 
+    -webkit-margin-after: 0em;
+}
+body{
+    height: auto;
+    background: #FAFAFA;
+}
+.top {
+    .W100();
+    .bgc_White();
+}
+
+.telphone {
+    .W100();
+    white-space: nowrap;
+}
+
+.telphone p {
+    /*white-space: nowrap;*/
+    color: #29b078;
+}
+
+.fenkai {
+    margin-left: @size2;
+}
+
+.rexian{
+    display: flex;
+    justify-content: flex-start;
+}
+.qq {
+    /*float: right;*/
+    /*white-space: nowrap;*/
+    display: flex;
+    justify-content: flex-end;
+    align-items: @ce;
+}
+
+.qq img {
+    margin-left: 0.5rem;
+    
+}
+
+.daohanglan {
+    .W100();
+    background-color: #29b078;
+}
+
+.daohanglan li {
+    position: relative;
+}
+
+.daohanglan a {
+    .D-ib();
+    .fs1_5();
+    .cw();
+    .t-ce();
+}
+
+.daohanglan div.xian {
+    position: absolute;
+    bottom: 0;
+    .W100();
+    height: 0.2rem;
+    .bgc_White();
+    transform: scale(0);
+    transition: transform 0.3s ease;
+}
+
+.daohanglan li:hover .xian {
+    transform: scale(1);
+}
+.lvse{
+    background-color: #29B078;
+    .cw();
+}
+.lvse p{
+    .fs1_5();
+}
+.lvse a{
+    .cw();
+    .fs1_5();
+}
+.lvse a:hover{
+    border-bottom: solid 1px @color_w;
+}
+.yitiao{
+    .t-ce();
+    border-top:1px solid #26c184;
+    font-size: 1.3rem;
+    .cw();
+}
+
+.heading{
+    display: flex;
+}
+.yitiaoxian{
+    border-bottom:0.05px solid darkgray;
+    padding: 2rem 0;
+}
+.buhuanhang {
+    white-space: nowrap;
+}
+.qudian{
+    list-style: none;
+}
+.qudian li a:hover{
+    background-color: green;
+    .cw();
+}
+.qudian li a{
+    text-decoration: none;
+    color: black;
+    margin-left: @size1;
+    .fs1();
+}
+.padding_left{
+    padding-left: 0.5rem;
+}
+.padding_right{
+    padding-right: 0.5rem;
+}
+.job{
+    .W100();    
+    .bgc_White();
+    
+}
+.job p{
+    .D-ib();
+    color: #A9A9A9;
+    .juzhong();
+}
+.job_width{
+    width: 50%;
+}
+
+.job_right{
+    border-right: 1px solid #EDF1F2;
+}
+.job_left{
+    border-left: 1px solid #EDF1F2;
+}
+.job img[src="img/033.png"]{
+    margin-left: 0.5rem;
+    .juzhong();
+}
+.job_bottom{
+    border-bottom: 1px solid #edf1f2;
+}
+.job_margin{
+    margin: @size1 0.2rem;
+}
+.introduce{
+    margin-left: @size1;
+}
+.btttn{
+    visibility: hidden;
+    
+}
+.kejian{
+    display: none;
+}
+
+.job .blacklink{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 80px 40px;
+    background-color: rgba(0,0,0,0.7);
+    transform: scale(0);
+    transition: transform 0.5s;
+   
+}
+.job:hover .blacklink{
+    transform: scale(1);
+}
+
+@media screen and (max-width: 570px) {
+    .juzhong{
+        visibility: hidden;
+        
+    }
+    .btttn{
+        visibility: visible;
+        width: 3rem;
+        height: 3rem;
+        background-color: #29B078;
+        border-color:rgba(255,255,255,0.5);
+        
+    }
+    .btttn:focus{
+        outline: none;
+    }
+    .down a{
+        .cw();
+        .fs1_5();
+        padding: 0.8rem 0;
+    }
+    .down a:hover{
+        background-color: rgba(255,255,255,0.5);    
+    }
+    
+    .kejian {
+        .D-bl();
+        background-color: #29b078;
+    }
+    .down{
+        overflow: hidden;
+        height: 0;
+        transition: height 0.5s ease-in-out;
+    }
+    .kejian:hover .down{
+        height: 15rem;
+    }
+    .job_margin{
+    .M1_1();
+}
+    
+    
+}
